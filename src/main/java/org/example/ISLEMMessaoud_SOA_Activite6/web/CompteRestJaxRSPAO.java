@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 import java.util.List;
-public class CompteRestJaxRSPAO {
+
     @Component
     @Path("/banque")
     public class CompteRestJaxRSAPO {
@@ -62,5 +62,5 @@ public class CompteRestJaxRSPAO {
             }
         }
 
-    }
+    
 
